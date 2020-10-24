@@ -1,0 +1,36 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, blue, green, red);
+}
+
+canvas {
+    display: block;
+    border-radius: 20%;
+}
+
+label {
+    color: white;
+}
+
+#speedf_container {
+    position: absolute;
+    left: 64%;
+    top: 30%;
+}
+
+#speed_input {
+    padding: 0.5vh 0.5vw;
+    border-radius: 4vh;
+    outline: none;
+    border: none;
+}
+
+#speed_submit_btn {
+    padding: 0.5vh 0.5vw;
+    background-color: rgba(0, 132, 255, 0.527);
+    color: white;
+    border-radius: 4vh;
+    outline: none;
+}
